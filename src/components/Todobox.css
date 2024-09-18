@@ -1,0 +1,20 @@
+/* styles.css */
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #4fd1c5;
+  }
+  
+  /* This is for Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #4fd1c5 transparent;
+  }
+  
